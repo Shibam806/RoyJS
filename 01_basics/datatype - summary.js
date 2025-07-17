@@ -44,6 +44,34 @@ console.log(typeof anotherId);
 
 
 
+//======================================Memory=============================
+
+// Stack(Primitive), Heap(Non Primitive)
+
+let myInstaName = "Shibamroy"
+
+let anotherInstaName = myInstaName
+anotherInstaName = "suttaaurcode"
+
+
+console.log(myInstaName);
+console.log(anotherInstaName);
+
+
+let userOne = {
+    email : "shibam@yahoo.com",
+    upi   : "roy@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.upi = "upi@ybl"
+
+console.log(userOne.upi);
+console.log(userTwo.upi);
+
+
+
 
 
 
