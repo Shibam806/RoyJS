@@ -4,7 +4,7 @@ const repoCount = 2
 //console.log(name + repoCount + "value"); this is an old method of concatenate srting
 
 console.log(`Hi my name is ${name} and my repo count is ${repoCount}`); // use this modern method using (``)backticks
-// bacticks uses benifits is that it brings string interpretation, you can made 
+// backticks uses benifits is that it brings string interpretation, you can made 
 // placeholder and the value you want to inject you can inject directly by using ${}
 
 
