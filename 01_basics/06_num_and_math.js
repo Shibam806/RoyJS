@@ -2,7 +2,9 @@ const score = 400
 // console.log(score);
 
 const balance = new Number(200)
-// console.log(balance);
+//  console.log(balance.toString().length);
+//  console.log(balance.toFixed());
+ 
 
 const otherNumber = 123.78594
 // console.log(otherNumber.toFixed());
